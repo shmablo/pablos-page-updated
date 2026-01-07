@@ -15,10 +15,29 @@ export default function Navbar(){
                 </ActionIcon>
 
                 <Group>
-                <Button variant="transparent">About</Button>
-                <Button variant="transparent">Journal</Button>
-                <Button variant="transparent">Projects</Button>
-                <Button variant="transparent">Gallery</Button>
+                    <Button 
+                    variant="transparent"
+                    >
+                        About
+                    </Button>
+
+                    <Button 
+                    variant="transparent"
+                    >
+                        Journal
+                    </Button>
+
+                    <Button 
+                    variant="transparent"
+                    >
+                        Projects
+                    </Button>
+
+                    <Button 
+                    variant="transparent"
+                    >
+                        Gallery
+                    </Button>
                 </Group>
 
                 <ActionIcon variant="subtle" size={'lg'} m={"xs"} onClick={() => toggleColorScheme()}>
